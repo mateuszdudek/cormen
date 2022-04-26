@@ -27,8 +27,8 @@ namespace AlgorithmsTests
             };
 
             var algorithmsWithStatistics = algorithms.Select(a => new AlgorithmWithCounters(a)).ToArray();
-            int minProblemSize = 1;
-            int maxProblemSize = 12;
+            int minProblemSize = 13;
+            int maxProblemSize = 14;
 
             string directory = $"Results" + Path.DirectorySeparatorChar.ToString() + MakeValidFileName($"{DateTime.UtcNow:u}");
 
